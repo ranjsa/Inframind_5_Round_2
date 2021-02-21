@@ -15,3 +15,4 @@ Amazon CloudFront |
 AWS CloudFormation |
 
 ## Architecture Digram
+![Architecture Digram](https://github.com/ranjsa/Inframind_5_Round_2/blob/main/aws_arch_v1.png)
