@@ -87,10 +87,10 @@ https://mywordpressbalti.s3.amazonaws.com/20-aws.ini
 
 ## Master Template
 The master template receives all input parameters and passes them to the appropriate nested template which are executed in order based on dependencies.
-Review the template here [aws-refarch-wordpress-master.yaml](https://mywordpressbalti.s3.amazonaws.com/master-newvpc.yaml)
+Review the template here [aws-master.yaml](https://mywordpressbalti.s3.amazonaws.com/master-newvpc.yaml)
 
 ## New VPC Template
-Review the template here [aws-refarch-wordpress-01-newvpc.yaml](https://mywordpressbalti.s3.amazonaws.com/newvpc.yaml)
+Review the template here [aws-newvpc.yaml](https://mywordpressbalti.s3.amazonaws.com/newvpc.yaml)
 
 ### Default VPC and subnet IP ranges
 
@@ -119,31 +119,31 @@ The 'newvpc' stack defaults to the following network design (but these can be ch
 | Public Subnet | 10.0.205.0/24 | 254 | Public subnet in sixth Availability Zone |
 
 ## Security Groups Template
-Review the template here [aws-refarch-wordpress-02-securitygroups.yaml](https://mywordpressbalti.s3.amazonaws.com/dashboard.yaml)
+Review the template here [aws-securitygroups.yaml](https://mywordpressbalti.s3.amazonaws.com/dashboard.yaml)
 
 ## Amazon EFS File System Template
-Review the template here [aws-refarch-wordpress-03-efsfilesystem.yaml](https://mywordpressbalti.s3.amazonaws.com/efsfilesystem.yaml)
+Review the template here [aws-efsfilesystem.yaml](https://mywordpressbalti.s3.amazonaws.com/efsfilesystem.yaml)
 
 ## Amazon EFS Alarms Template
-Review the template here [aws-refarch-wordpress-03-efsalarms.yaml](https://mywordpressbalti.s3.amazonaws.com/efsalarms.yaml)
+Review the template here [aws-efsalarms.yaml](https://mywordpressbalti.s3.amazonaws.com/efsalarms.yaml)
 
 ## Amazon ElastiCache Template
-Review the template here [aws-refarch-wordpress-03-elasticache.yaml](https://mywordpressbalti.s3.amazonaws.com/elasticache.yaml)
+Review the template here [aws-elasticache.yaml](https://mywordpressbalti.s3.amazonaws.com/elasticache.yaml)
 
 ## Amazon Elastic Load Balancing - Application Load Balancer Template
-Review the template here [aws-refarch-wordpress-03-publicelb.yaml](templates/aws-refarch-wordpress-03-publicalb.yaml)
+Review the template here [aws-publicelb.yaml](https://mywordpressbalti.s3.amazonaws.com/publicalb.yaml)
 
 ## Amazon RDS Template
-Review the template here [aws-refarch-wordpress-03-rds.yaml](https://mywordpressbalti.s3.amazonaws.com/rds.yaml)
+Review the template here [aws-rds.yaml](https://mywordpressbalti.s3.amazonaws.com/rds.yaml)
 
 ## Amazon CloudFront Template
-Review the template here [aws-refarch-wordpress-04-cloudfront.yaml](https://mywordpressbalti.s3.amazonaws.com/cloudfront.yaml)
+Review the template here [aws-cloudfront.yaml](https://mywordpressbalti.s3.amazonaws.com/cloudfront.yaml)
 
 ## WordPress Web Template
-Review the template here [aws-refarch-wordpress-04-web.yaml](https://mywordpressbalti.s3.amazonaws.com/web.yaml)
+Review the template here [aws-web.yaml](https://mywordpressbalti.s3.amazonaws.com/web.yaml)
 
 ## Amazon Route 53 Template
-Review the template here [aws-refarch-wordpress-05-route53.yaml](https://mywordpressbalti.s3.amazonaws.com/route53.yaml)
+Review the template here [aws-route53.yaml](https://mywordpressbalti.s3.amazonaws.com/route53.yaml)
 
 ## Amazon CloudWatch Dashboard Template
-Review the template here [aws-refarch-wordpress-06-dashboard.yaml](https://mywordpressbalti.s3.amazonaws.com/dashboard.yaml)
+Review the template here [aws-dashboard.yaml](https://mywordpressbalti.s3.amazonaws.com/dashboard.yaml)
